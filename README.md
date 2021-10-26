@@ -1,18 +1,17 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Porfolio
 
-> One paragraph statement about the project.
+>This is my personal porfolio.
+<p align="center">
+  <img src="./portfolio-screenshot.PNG"/>
+</p>
 
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
+This project is from the Microverse curriculum. It's main objective is to help student understand how to parse a Figma design to create a user interface and also help student build their portfolio.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML & CSS
 
 ## Live Demo
 
@@ -21,39 +20,23 @@ Additional description about the project and its features.
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
 
-### Prerequisites
+1. Clone this repository or download the Zip folder:
+git clone https://github.com/chukwuemeka1234/Portfolio.git
 
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
+2. Navigate to the location of the folder in your machine:
+you@your-Pc-name:~$ cd <folder>
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Author**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@chukwuemeka1234](https://github.com/chukwuemeka1234)
+- Twitter: [@avc_victor](https://twitter.com/@avc_victor)
+- LinkedIn: [ani-chukwuemeka](https://linkedin.com/in/ani-chukwuemeka-a65421199/)
 
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
