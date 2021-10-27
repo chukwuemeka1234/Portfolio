@@ -117,3 +117,199 @@ body {
   width: 100%;
   height: 40%;
 }
+
+/* Works Section */
+.works {
+  display: grid;
+  row-gap: 5.5rem;
+  justify-content: center;
+  align-items: center;
+  padding: 7.2rem 3.4rem;
+  background: #e5e5e5;
+}
+
+.project__works {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #dfe1e6;
+  box-sizing: border-box;
+  border-radius: 16px;
+  padding: 1rem;
+  background: #fff;
+  margin: 0 auto;
+}
+
+.works .project__works .project__image__container {
+  width: 100%;
+  list-style-type: none;
+}
+
+.mobile-image {
+  display: inline-block;
+  width: 100%;
+}
+
+.project__work__body {
+  list-style-type: none;
+}
+
+.work__body__info {
+  padding: 1rem 0;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.work__title {
+  font-size: 2.5rem;
+  color: #172b4d;
+}
+
+.canopy {
+  color: #344563;
+  padding-right: 0.5rem;
+}
+
+.backend {
+  color: #7a869a;
+  padding: 0 0.5rem;
+}
+
+.year {
+  color: #7a869a;
+  padding: 0 0.5rem;
+}
+
+.tags {
+  display: flex;
+  list-style-type: none;
+  margin: 1rem 0 1.3rem 0;
+  gap: 0.5rem;
+  width: 100%;
+  height: 1.5rem;
+  color: #6070ff;
+  font-size: 14px;
+}
+
+.tag {
+  padding: 0 0.2rem;
+  background: #ebebff;
+  border-radius: 5px;
+}
+
+.btn {
+  font-size: 1.0625rem;
+  font-weight: 500;
+  color: #3b4eff;
+  letter-spacing: 0.03em;
+  padding: 0.75rem;
+  border-radius: 8px;
+  border: 1px solid #5364fc;
+  background-color: #fff;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #6070ff;
+  color: #fff;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  border-radius: 8px;
+}
+
+.btn:active {
+  background-color: #2230d2;
+  border-radius: 8px;
+  color: #fff;
+}
+
+.btn:disabled {
+  background-color: #e5e5e5;
+  color: #5e6c84;
+}
+
+/* About section */
+.about__myself {
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 90px;
+  background-image: url(/images/about-myself-background.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #fff;
+}
+
+/* .header__primary {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  color: #172b4d;
+} */
+
+.about__myself__btn {
+  margin: 1rem 0 2.5rem 0;
+}
+
+.skill__info {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 4.5rem;
+  gap: 1.625rem;
+}
+
+.skill__section__container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.skill__section {
+  width: 100%;
+}
+
+.skill__title {
+  font-weight: 500;
+  font-size: 1.25rem;
+  color: #000;
+  width: 75%;
+}
+
+.language__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 0;
+  width: 100%;
+}
+
+.language {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+  height: 4.17rem;
+  border-radius: 10px;
+  background: #f7f7f9;
+}
+
+.language__name {
+  font-weight: 500;
+  font-size: 0.9375rem;
+  line-height: 1.25rem;
+  color: #000;
+}
+
+.line {
+  width: 100%;
+  height: 0.0625rem;
+  background: #dfe1e6;
+  background-repeat: no-repeat;
+  background-size: cover;
+  list-style-type: none;
+}
