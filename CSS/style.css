@@ -375,7 +375,7 @@ input {
   padding-right: 38px;
   padding-top: 15px;
   padding-bottom: 15px;
-  font-family: Poppins sans-serif;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 17px;
@@ -414,7 +414,7 @@ input {
 }
 
 textarea {
-  font-family: Poppins sans-serif;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
