@@ -8,7 +8,7 @@
 }
 
 body {
-  background: #e5e5e5;
+  background: #;
   width: 100%;
 }
 
@@ -21,7 +21,7 @@ body {
   margin-right: 24px;
   width: 100%;
   height: 5rem;
-  background: #fff;
+  background-color: #fff;
   position: fixed;
 }
 
@@ -55,6 +55,10 @@ body {
 }
 
 /* Headlines */
+main {
+  background-color: #e5e5e5;
+}
+
 .headline {
   display: flex;
   flex-direction: column;
@@ -65,6 +69,7 @@ body {
     url(../Image/header-background-mobile.svg);
   background-size: cover;
   background-repeat: no-repeat;
+  background-color: #e5e5e5;
   background-position: top right;
   border-bottom-left-radius: 90px;
   margin-top: 80px;
@@ -231,6 +236,10 @@ body {
 }
 
 /* About section */
+article {
+  background-color: #e5e5e5;
+}
+
 .about__myself {
   border-bottom-left-radius: 0;
   border-top-right-radius: 90px;
@@ -239,13 +248,6 @@ body {
   background-size: cover;
   background-color: #fff;
 }
-
-/* .header__primary {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 60px;
-  color: #172b4d;
-} */
 
 .about__myself__btn {
   margin: 1rem 0 2.5rem 0;
@@ -322,13 +324,16 @@ body {
   background-image: url(/Image/contact.svg);
   background-repeat: no-repeat;
   background-color: #6070ff;
-  background-size: cover;
-  align-items: center;
+  background-position: right;
+  border-top-left-radius: 90px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .footer-title {
   flex: 1;
-  width: 801px;
+  margin-right: auto;
+  margin-left: auto;
   height: 56px;
   font-family: Poppins, sans-serif;
   font-style: normal;
@@ -344,22 +349,26 @@ body {
 
 .footer-text {
   flex: 1;
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 28px;
-  width: 327px;
+  width: 87.2%;
   height: 102px;
   margin-top: 12px;
   color: #ebebff;
+  text-align: center;
+  align-self: center;
+  letter-spacing: 0.03em;
 }
 
 input {
-  width: 327px;
+  width: 87.2%;
   height: 48px;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
+  padding-left: 6.4%;
 }
 
 ::placeholder {
@@ -373,4 +382,61 @@ input {
   font-size: 17px;
   line-height: 20px;
   color: #172b4d;
+}
+
+.form {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-top: 72px;
+  margin-left: 18px;
+}
+
+.formul {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.formul1 {
+  margin-left: 18px;
+}
+
+.formul2 {
+  flex: 1;
+  margin-top: 20px;
+  margin-left: 18px;
+}
+
+.formul3 {
+  flex: 1;
+  margin-top: 18px;
+  margin-left: 18px;
+}
+
+textarea {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  color: #b3bac5;
+  padding: 15px 38px 15px 16px;
+  width: 87.2%;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+}
+
+.button-btn {
+  flex: 1;
+  margin-top: 22px;
+  margin-left: 18px;
+}
+
+.line-bold {
+  flex: 1;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 32px;
+  margin-bottom: 8px;
 }
