@@ -323,4 +323,54 @@ body {
   background-repeat: no-repeat;
   background-color: #6070ff;
   background-size: cover;
+  align-items: center;
+}
+
+.footer-title {
+  flex: 1;
+  width: 801px;
+  height: 56px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  color: #fff;
+  text-align: center;
+  overflow: hidden;
+  margin-top: 103px;
+  margin-bottom: 0;
+}
+
+.footer-text {
+  flex: 1;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  width: 327px;
+  height: 102px;
+  margin-top: 12px;
+  color: #ebebff;
+}
+
+input {
+  width: 327px;
+  height: 48px;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+}
+
+::placeholder {
+  padding-left: 16px;
+  padding-right: 38px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 20px;
+  color: #172b4d;
 }
