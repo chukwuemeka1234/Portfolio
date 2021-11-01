@@ -372,7 +372,7 @@ input {
 }
 
 ::placeholder {
-  padding-left: 16px;
+  padding-left: 8px;
   padding-right: 38px;
   padding-top: 15px;
   padding-bottom: 15px;
