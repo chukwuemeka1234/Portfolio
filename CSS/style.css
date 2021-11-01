@@ -236,7 +236,7 @@ main {
 
 /* About section */
 article {
-  background-color: #e5e5e5;
+  /* background-color: #e5e5e5; */
 }
 
 .about__myself {
@@ -245,7 +245,7 @@ article {
   background-image: url(/images/about-myself-background.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #fff;
+  background-color: #e5e5e5;
 }
 
 .about__myself__btn {
