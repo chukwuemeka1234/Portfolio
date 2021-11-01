@@ -313,3 +313,14 @@ body {
   background-size: cover;
   list-style-type: none;
 }
+
+/* footer */
+.footer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-image: url(/Image/contact.svg);
+  background-repeat: no-repeat;
+  background-color: #6070ff;
+  background-size: cover;
+}
