@@ -236,7 +236,7 @@ main {
 
 /* About section */
 article {
-  /* background-color: #e5e5e5; */
+  background-color: #e5e5e5;
 }
 
 .about__myself {
@@ -245,7 +245,7 @@ article {
   background-image: url(/images/about-myself-background.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #e5e5e5;
+  background-color: #fff;
 }
 
 .about__myself__btn {
@@ -375,7 +375,7 @@ input {
   padding-right: 38px;
   padding-top: 15px;
   padding-bottom: 15px;
-  font-family: Poppins;
+  font-family: Poppins sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 17px;
@@ -414,7 +414,7 @@ input {
 }
 
 textarea {
-  font-family: Poppins;
+  font-family: Poppins sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
