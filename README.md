@@ -15,7 +15,8 @@ This project is from the Microverse curriculum. It's main objective is to help s
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://chukwuemeka1234.github.io/portfolio/)
+
 
 
 ## Getting Started
@@ -23,10 +24,10 @@ This project is from the Microverse curriculum. It's main objective is to help s
 To get a local copy up and running follow these simple example steps.
 
 1. Clone this repository or download the Zip folder:
-git clone https://github.com/chukwuemeka1234/Portfolio.git
+**''git clone https://github.com/chukwuemeka1234/Portfolio.git''**
 
 2. Navigate to the location of the folder in your machine:
-you@your-Pc-name:~$ cd <folder>
+**''you@your-Pc-name:~$ cd <folder>''**
 
 
 ## Authors
