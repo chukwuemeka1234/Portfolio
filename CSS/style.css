@@ -242,7 +242,7 @@ article {
 .about__myself {
   border-bottom-left-radius: 0;
   border-top-right-radius: 90px;
-  background-image: url(/images/about-myself-background.svg);
+  background-image: url(../Images/about-myself-background.svg);
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #fff;
@@ -320,7 +320,7 @@ article {
   display: flex;
   flex-direction: column;
   width: 100%;
-  background-image: url(/Image/contact.svg);
+  background-image: url(../Image/contact.svg);
   background-repeat: no-repeat;
   background-color: #6070ff;
   background-position: right;
