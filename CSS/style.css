@@ -71,7 +71,7 @@ main {
   background-color: #e5e5e5;
   background-position: top right;
   border-bottom-left-radius: 90px;
-  margin-top: 80px;
+  margin-top: 79px;
   padding-left: 30px;
 }
 
@@ -130,6 +130,7 @@ main {
   align-items: center;
   padding: 7.2rem 3.4rem;
   background: #e5e5e5;
+  margin-top: 0;
 }
 
 .project__works {
