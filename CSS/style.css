@@ -176,6 +176,10 @@ main {
   color: #172b4d;
 }
 
+.desktop-image {
+  display: none;
+}
+
 .canopy {
   color: #344563;
   padding-right: 0.5rem;
@@ -447,7 +451,7 @@ textarea {
 
 @media screen and (min-width: 992px) {
   header {
-    height: 846px;
+    /* height: 846px; */
   }
 
   header nav .nav-menu-link {
@@ -527,18 +531,16 @@ textarea {
   }
 
   .work__container {
-    width: 80.2%;
+    width:100%;
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /* border-radius: 1.5rem; */
     margin: auto;
     gap: 1.357rem;
-    margin: 142px 142px;
   }
 
   .project__works {
-    margin: 142px 42px;
-
+    margin: 30px 42px;
     width: 1156px;
   }
 
@@ -550,6 +552,52 @@ textarea {
   .desktop-image {
     display: inline-block;
     width: 100%;
+  }
+
+  .work__container .project__work__body {
+    width: 50%;
+    padding: 0 1.5rem 3rem 1.5rem;
+    margin: 0;
+  }
+
+  .btn-card {
+    font-size: 1.0625rem;
+  font-weight: 500;
+  color: #3b4eff;
+  letter-spacing: 0.03em;
+  padding: 0.75rem;
+  border-radius: 8px;
+  border: 1px solid #5364fc;
+  background-color: #fff;
+  box-sizing: border-box;
+  cursor: pointer;
+  }
+
+  .btn-card:hover {
+    background-color: #6070ff;
+    color: #fff;
+    box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+    border-radius: 8px;
+  }
+  
+  .btn-card:active {
+    background-color: #2230d2;
+    border-radius: 8px;
+    color: #fff;
+  }
+  
+  .btn-card:disabled {
+    background-color: #e5e5e5;
+    color: #5e6c84;
+  }
+
+  .work__title, .works__primary__text,
+  .btn-card {
+    margin-top: 20px
+  }
+
+  .row-reverse {
+    flex-direction: row-reverse;
   }
   
 }
