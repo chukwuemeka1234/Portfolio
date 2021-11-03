@@ -35,6 +35,10 @@ body {
   font-weight: bold;
 }
 
+.nav-menu-link {
+  display: none;
+}
+
 .toggle-menu {
   width: 25px;
   height: 18px;
@@ -440,3 +444,4 @@ textarea {
   margin-top: 32px;
   margin-bottom: 8px;
 }
+
