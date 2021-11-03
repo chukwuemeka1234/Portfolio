@@ -472,7 +472,7 @@ textarea {
     color: #344563;
   }
 
-  .toggle-menu {
+  .toggle-menu, .mobile-image {
     display: none;
   }
 
@@ -520,6 +520,36 @@ textarea {
 
   .social-media-icons {
     margin-left: 225.4px;
+  }
+
+  .works {
+    width: auto;
+  }
+
+  .work__container {
+    width: 80.2%;
+    flex-direction: row;
+    justify-content: space-between;
+    /* border-radius: 1.5rem; */
+    margin: auto;
+    gap: 1.357rem;
+    margin: 142px 142px;
+  }
+
+  .project__works {
+    margin: 142px 42px;
+
+    width: 1156px;
+  }
+
+  .works .work__container .project__image__container {
+    width: 50%;
+    height: 100%;
+  }
+
+  .desktop-image {
+    display: inline-block;
+    width: 100%;
   }
   
 }
