@@ -480,5 +480,46 @@ textarea {
     margin-left: 154px;
   }
 
+  .headline {
+    background-image: url(/Image/Desktop_header.svg);
+    background-color: #fff;
+    height: 916px;
+    background-size: 85%;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+
+  .header__primary__one {
+    margin-left: 225.4px;
+    margin-top: 241px;
+    width: 920px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+    overflow: hidden;
+  }
+
+  .para-primary-text {
+    margin-left: 225.4px;
+    width: 920px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 28px;
+  }
+
+  .connect {
+    margin-left: 225.4px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .social-media-icons {
+    margin-left: 225.4px;
+  }
   
 }
