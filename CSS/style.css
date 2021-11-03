@@ -445,3 +445,40 @@ textarea {
   margin-bottom: 8px;
 }
 
+@media screen and (min-width: 992px) {
+  header {
+    height: 846px;
+  }
+
+  header nav .nav-menu-link {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 0.625rem 0.75rem;
+    gap: 1.25rem;
+    margin-right: 155px;
+  }
+
+  .nav-link {
+    font-weight: 550;
+    font-size: 0.9575rem;
+    line-height: 1.25rem;
+    color: #344563;
+    margin-right: 32px;
+  }
+
+  .nav-link a {
+    text-decoration: none;
+    color: #344563;
+  }
+
+  .toggle-menu {
+    display: none;
+  }
+
+  .navbar__container {
+    margin-left: 154px;
+  }
+
+  
+}
