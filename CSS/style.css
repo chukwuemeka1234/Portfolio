@@ -549,6 +549,8 @@ textarea {
 
   .works {
     width: auto;
+    padding-bottom: 16%;
+    padding-top: 10%;
   }
 
   .work__container {
@@ -556,13 +558,13 @@ textarea {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: auto;
+    /* margin: auto; */
     gap: 1.357rem;
   }
 
   .project__works {
-    margin: 30px 42px;
-    width: 1156px;
+    margin: 10% 5%px;
+    width: 100%;
   }
 
   .works .work__container .project__image__container {
