@@ -136,7 +136,9 @@ main {
   row-gap: 5.5rem;
   justify-content: center;
   align-items: center;
-  padding: 7.2rem 3.4rem;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 22%;
   background: #e5e5e5;
   margin-top: 0;
 }
@@ -463,6 +465,15 @@ textarea {
 }
 
 @media screen and (min-width: 992px) {
+  body {
+    max-width: 100%;
+    -ms-overflow-style: none;
+  }
+
+  body::-webkit-scrollbar {
+    display: none;
+  }
+
   header nav .nav-menu-link {
     display: flex;
     align-items: center;
@@ -470,6 +481,7 @@ textarea {
     padding: 0.625rem 0.75rem;
     gap: 1.25rem;
     margin-right: 155px;
+    overflow: hidden;
   }
 
   .nav-link {
@@ -497,26 +509,31 @@ textarea {
   .headline {
     background-image: url(../Image/Desktop_header.svg);
     background-color: #fff;
-    height: 916px;
     background-size: 89%;
     background-repeat: no-repeat;
     background-position: top;
+    width: 100%;
+    padding-left: 21%;
+    padding-right: 15%;
+    padding-top: 18%;
+    padding-bottom: 18%;
   }
 
   .header__primary__one__head {
-    margin-left: 225.4px;
     margin-top: 241px;
-    width: 920px;
     font-style: normal;
     font-weight: bold;
-    font-size: 48px;
-    line-height: 60px;
+    font-size: 3rem;
+    line-height: 3.75rem;
+    letter-spacing: 0.023125rem;
+    margin: 0.75rem 0;
+    color: #091e42;
+    width: 45%;
     overflow: hidden;
   }
 
   .para-primary-text-head {
-    margin-left: 225.4px;
-    width: 920px;
+    width: auto;
     font-size: 20px;
     font-style: normal;
     font-weight: normal;
@@ -524,7 +541,6 @@ textarea {
   }
 
   .connect-head {
-    margin-left: 225.4px;
     font-family: Poppins, sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -533,7 +549,7 @@ textarea {
   }
 
   .social-media-icons-head {
-    margin-left: 225.4px;
+    
   }
 
   .works {
@@ -616,6 +632,7 @@ textarea {
     flex-direction: row;
     gap: 1.5625rem;
     height: 668px;
+    overflow: hidden;
   }
 
   .about__container {
