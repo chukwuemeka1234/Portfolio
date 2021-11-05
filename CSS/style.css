@@ -673,15 +673,9 @@ textarea {
   }
 
   .footer {
-<<<<<<< HEAD
     background-image: url(../Image/contact-desktop.svg);
     background-size: 97%;
     align-items: center;
-=======
-   background-image: url(../Image/contact-desktop.svg);
-   background-size: 97%;
-   align-items: center;
->>>>>>> 51d26b47bea37fe06950a5fac7a1eeb722b8500b
   }
 
   .footer-text {
