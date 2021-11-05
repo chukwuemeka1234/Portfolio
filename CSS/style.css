@@ -122,6 +122,23 @@ main {
   align-items: center;
   width: 10.636rem;
   list-style-type: none;
+  animation-name: slideout;
+  animation-direction: alternate;
+  animation-timing-function: ease-out;
+  animation-iteration-count: 1;
+  animation-duration: 6s;
+}
+
+@keyframes slideout {
+  from {
+    margin-left: 100%;
+    width: 100%
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%
+  }
 }
 
 .s-m-icon {
