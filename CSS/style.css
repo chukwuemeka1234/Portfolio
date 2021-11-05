@@ -238,12 +238,20 @@ main {
   border-radius: 8px;
 }
 
+<<<<<<< HEAD
+=======
+.btn:active,
+>>>>>>> 51d26b47bea37fe06950a5fac7a1eeb722b8500b
 .btn:active {
   background-color: #2230d2;
   border-radius: 8px;
   color: #fff;
 }
 
+<<<<<<< HEAD
+=======
+.btn:disabled,
+>>>>>>> 51d26b47bea37fe06950a5fac7a1eeb722b8500b
 .btn:disabled {
   background-color: #e5e5e5;
   color: #5e6c84;
@@ -665,9 +673,15 @@ textarea {
   }
 
   .footer {
+<<<<<<< HEAD
     background-image: url(../Image/contact-desktop.svg);
     background-size: 97%;
     align-items: center;
+=======
+   background-image: url(../Image/contact-desktop.svg);
+   background-size: 97%;
+   align-items: center;
+>>>>>>> 51d26b47bea37fe06950a5fac7a1eeb722b8500b
   }
 
   .footer-text {
