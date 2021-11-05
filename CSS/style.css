@@ -33,6 +33,9 @@ body {
   font-size: 1.5rem;
   text-decoration: none;
   font-weight: bold;
+  transition-property: color, font-size, font-weight;
+  transition-duration: 6s;
+  transition-delay: 2s;
 }
 
 .nav-menu-link {
@@ -197,6 +200,14 @@ main {
 .work__title {
   font-size: 2.5rem;
   color: #172b4d;
+  transition-property: color, font-size;
+  transition-duration: 5s;
+  transition-delay: 1s;
+}
+
+.work__title:hover {
+  color: #f34;
+  font-size: 2.7rem;
 }
 
 .desktop-image {
@@ -247,6 +258,9 @@ main {
   background-color: #fff;
   box-sizing: border-box;
   cursor: pointer;
+  transition-property: color, font-size, font-weight;
+  transition-delay: 1s;
+  transition-duration: 8s;
 }
 
 .btn:hover,
@@ -615,6 +629,14 @@ textarea {
   .desktop-image {
     display: inline-block;
     width: 100%;
+    transform: scale(1);
+    transition-property: transform;
+    transition-duration: 2s;
+    transition-delay: 1s;
+  }
+
+  .desktop-image:hover {
+    transform: scale(1.05);
   }
 
   .work__container .project__work__body {
