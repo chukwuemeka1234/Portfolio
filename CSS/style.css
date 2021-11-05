@@ -600,6 +600,14 @@ textarea {
     background-color: #fff;
     box-sizing: border-box;
     cursor: pointer;
+    transition-property: font-weight, font-size;
+    transition-duration: 5s;
+    transition-delay: 2s;
+  }
+
+  .btn-card:hover {
+    font-weight: 700;
+    font-size: 20px;
   }
 
   .btn-card:hover {
