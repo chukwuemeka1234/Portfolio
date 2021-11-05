@@ -529,6 +529,29 @@ textarea {
     color: #091e42;
     width: 45%;
     overflow: hidden;
+    animation-name: move-right;
+    animation-duration: 5s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: 3;
+    transition-property: color;
+    transition-duration: 4s;
+    transition-delay: 1s;
+  }
+
+  @keyframes move-right {
+    from {
+      margin-left: 40%;
+      width: 100%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+  .header__primary__one__head {
+    color: #27a05d;
   }
 
   .para-primary-text-head {
