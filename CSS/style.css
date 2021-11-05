@@ -238,14 +238,12 @@ main {
   border-radius: 8px;
 }
 
-.btn:active,
 .btn:active {
   background-color: #2230d2;
   border-radius: 8px;
   color: #fff;
 }
 
-.btn:disabled,
 .btn:disabled {
   background-color: #e5e5e5;
   color: #5e6c84;
@@ -487,7 +485,8 @@ textarea {
     color: #344563;
   }
 
-  .toggle-menu, .mobile-image {
+  .toggle-menu,
+  .mobile-image {
     display: none;
   }
 
@@ -526,7 +525,7 @@ textarea {
 
   .connect-head {
     margin-left: 225.4px;
-    font-family: Poppins;
+    font-family: Poppins, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -542,7 +541,7 @@ textarea {
   }
 
   .work__container {
-    width:100%;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -571,17 +570,23 @@ textarea {
     margin: 0;
   }
 
+  .work__title,
+  .works__primary__text,
   .btn-card {
-  font-size: 1.0625rem;
-  font-weight: 500;
-  color: #3b4eff;
-  letter-spacing: 0.03em;
-  padding: 0.75rem;
-  border-radius: 8px;
-  border: 1px solid #5364fc;
-  background-color: #fff;
-  box-sizing: border-box;
-  cursor: pointer;
+    margin-top: 20px
+  }
+
+  .btn-card {
+    font-size: 1.0625rem;
+    font-weight: 500;
+    color: #3b4eff;
+    letter-spacing: 0.03em;
+    padding: 0.75rem;
+    border-radius: 8px;
+    border: 1px solid #5364fc;
+    background-color: #fff;
+    box-sizing: border-box;
+    cursor: pointer;
   }
 
   .btn-card:hover {
@@ -600,11 +605,6 @@ textarea {
   .btn-card:disabled {
     background-color: #e5e5e5;
     color: #5e6c84;
-  }
-
-  .work__title, .works__primary__text,
-  .btn-card {
-    margin-top: 20px
   }
 
   .row-reverse {
