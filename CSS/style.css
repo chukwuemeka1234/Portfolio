@@ -550,7 +550,7 @@ textarea {
   .works {
     width: auto;
     padding-bottom: 16%;
-    padding-top: 10%;
+    padding-top: 9%;
   }
 
   .work__container {
@@ -558,12 +558,12 @@ textarea {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /* margin: auto; */
     gap: 1.357rem;
   }
 
   .project__works {
-    margin: 10% 5%px;
+    margin-top: 9%;
+    margin-left: 5%px;
     width: 100%;
   }
 
