@@ -458,6 +458,12 @@ textarea {
   margin-bottom: 8px;
 }
 
+@media screen and (max-width: 991px) {
+  .hide-mobile {
+    display: none;
+  }
+}
+
 @media screen and (min-width: 992px) {
   header nav .nav-menu-link {
     display: flex;
@@ -694,6 +700,10 @@ textarea {
   }
 
   .line-bold {
+    display: none;
+  }
+
+  .hide-desktop {
     display: none;
   }
 }
