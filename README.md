@@ -15,7 +15,7 @@ This project is from the Microverse curriculum. It's main objective is to help s
 
 ## Live Demo
 
-[Live Demo Link](https://chukwuemeka1234.github.io/Portfolio/)
+[Live Demo Link](https://chukwuemeka1234.github.io/portfolio/).
 
 ## Getting Started
 
