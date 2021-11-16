@@ -1,25 +1,25 @@
-const modal = document.querySelector(".nav-menu-link");
+const modal = document.querySelector('.nav-menu-link');
 
-document.getElementById("menu").addEventListener("click", () => {
-  modal.style.width = "100%";
+document.getElementById('menu').addEventListener('click', () => {
+  modal.style.width = '100%';
 });
 
-const close = document.getElementById("close-Icon");
+const close = document.getElementById('close-Icon');
 close.onclick = function () {
-  modal.style.width = "0";
+  modal.style.width = '0';
 };
 
-const portfolio = document.getElementById("portfolioPage");
+const portfolio = document.getElementById('portfolioPage');
 portfolio.onclick = function () {
-  modal.style.width = "0";
+  modal.style.width = '0';
 };
 
-const about = document.getElementById("aboutPage");
+const about = document.getElementById('aboutPage');
 about.onclick = function () {
-  modal.style.width = "0";
+  modal.style.width = '0';
 };
 
-const contact = document.getElementById("contactPage");
+const contact = document.getElementById('contactPage');
 contact.onclick = function () {
-  modal.style.width = "0";
+  modal.style.width = '0';
 };
