@@ -13,6 +13,13 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-1PBGHJN2YD');
+</script>
 </head>
 
 <body>
@@ -20,20 +27,25 @@
     <div class="navbar__container">
       <a href="#home" id="navbar__logo">Victor</a>
     </div>
+      <div class="toggle-menu">
+        <img src="Image/menu-ham.svg" id="menu" alt="Hambuger menu">
+      </div>
     <nav>
       <ul class="nav-menu-link">
+        <li class="nav-link"><a href="javascript:void(0)" class="closebtn" id="closeNav"><img src="image/close.svg" alt="close" /></a></li>
+        <li class="nav-link"><a href="#portfolio" id="portfolioPage">Portfolio</a></li>
+        <li class="nav-link"><a href="#about" id="aboutPage">About</a></li>
+        <li class="nav-link"><a href="#contact" id="contactPage">Contact</a></li>
+      </ul>
+    </nav>
+    <nav>
+      <ul class="nav-menu-link-desktop">
         <li class="nav-link"><a href="#portfolio">Portfolio</a></li>
         <li class="nav-link"><a href="#about">About</a></li>
         <li class="nav-link"><a href="#contact">Contact</a></li>
       </ul>
-      <ul>
-        <li class="toggle-menu">
-          <div class="line_0 line-1"></div>
-          <div class="line_0 line-2"></div>
-          <div class="line_0 line-3"></div>
-        </li>
-      </ul>
     </nav>
+
   </header>
 
   <!-- Headlines -->
@@ -305,6 +317,8 @@
     <span class="line-bold"><img src="Image/footer-line.svg" alt="line"></span>
   </footer>
 
+
+  <script src="main.js"></script>
 </body>
 
 </html>
