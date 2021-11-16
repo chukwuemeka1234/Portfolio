@@ -71,12 +71,14 @@ body {
   margin-top: 50px;
 }
 
-.nav-menu-link .closebtn {
-  padding-top: 80px;
+.nav-menu-link #close-Icon {
+  padding: 50px;
   position: absolute;
   top: 0;
-  right: 25px;
-  margin-left: 70%;
+  right: 10px;
+  font-size: 25px;
+  color: #fafcfd;
+  margin-left: 90px;
   border: none;
 }
 
