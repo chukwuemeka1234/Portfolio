@@ -562,14 +562,16 @@ textarea {
     position: relative;
     top: 25%;
     row-gap: 20px;
+    margin-right: 90px;
   }
   
   .nav-link {
     font-weight: 550;
-    font-size: 0.9575rem;
+    font-size: 1.0975rem;
     line-height: 1.25rem;
     color: #344563;
     margin-right: 32px;
+    overflow: hidden;
   }
 
   .nav-link a {
