@@ -663,6 +663,12 @@ textarea {
     margin-top: 9%;
     padding-left: 5%;
     width: 100%;
+    transform: scale(1);
+    transition-property: transform;
+  }
+
+  .project__works:hover {
+    transform: scale(1.05);
   }
 
   .works .work__container .project__image__container {
@@ -673,14 +679,6 @@ textarea {
   .desktop-image {
     display: inline-block;
     width: 100%;
-    transform: scale(1);
-    transition-property: transform;
-    transition-duration: 2s;
-    transition-delay: 1s;
-  }
-
-  .desktop-image:hover {
-    transform: scale(1.05);
   }
 
   .work__container .project__work__body {
