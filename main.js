@@ -23,3 +23,5 @@ const contact = document.getElementById('contactPage');
 contact.onclick = function () {
   modal.style.width = '0';
 };
+
+
