@@ -13,6 +13,13 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-1PBGHJN2YD');
+</script>
 </head>
 
 <body>
@@ -20,25 +27,30 @@
     <div class="navbar__container">
       <a href="#home" id="navbar__logo">Victor</a>
     </div>
+      <div class="toggle-menu">
+        <img src="Image/menu-ham.svg" id="menu" alt="Hambuger menu">
+      </div>
     <nav>
       <ul class="nav-menu-link">
+        <li><a href="#" id="close-Icon">X</a></li>
+        <li class="nav-link"><a href="#portfolio" id="portfolioPage">Portfolio</a></li>
+        <li class="nav-link"><a href="#about" id="aboutPage">About</a></li>
+        <li class="nav-link"><a href="#contact" id="contactPage">Contact</a></li>
+      </ul>
+    </nav>
+    <nav>
+      <ul class="nav-menu-link-desktop">
         <li class="nav-link"><a href="#portfolio">Portfolio</a></li>
         <li class="nav-link"><a href="#about">About</a></li>
         <li class="nav-link"><a href="#contact">Contact</a></li>
       </ul>
-      <ul>
-        <li class="toggle-menu">
-          <div class="line_0 line-1"></div>
-          <div class="line_0 line-2"></div>
-          <div class="line_0 line-3"></div>
-        </li>
-      </ul>
     </nav>
+
   </header>
 
   <!-- Headlines -->
   <main>
-    <section class="headline">
+    <section class="headline" id="home">
       <h1 class="header__primary__one__head">I’m Victor 
       Glad to see you!</h1>
       <p class="para-primary-text-head">I’m a software developer! I can help you build a product , feature or website
@@ -76,7 +88,7 @@
     </section>
   </main>
   <!-- Works section -->
-  <section class="works">
+  <section class="works" id="portfolio">
     <div class="project__works">
       <ul class="work__container">
         <li class="project__image__container">
@@ -202,7 +214,7 @@
 
   <!-- About section -->
   <article>
-    <section class="about__myself headline">
+    <section class="about__myself headline" id="about">
       <div class="about__container">
         <h2 class="header__primary">About myself</h2>
         <p class="para-primary-text">Hello I’m a software developer! I can help you build a product , feature or website
@@ -275,7 +287,7 @@
   </article>
 
   <!-- Footer -->
-  <footer class="footer">
+  <footer class="footer" id="contact">
     <h2 class="footer-title">Contact me</h2>
     <p class="footer-text">If you have an application you are interested in developing, a feature that you need built or
       a project that needs coding. I’d love to help with it</p>
@@ -305,6 +317,8 @@
     <span class="line-bold"><img src="Image/footer-line.svg" alt="line"></span>
   </footer>
 
+
+  <script src="main.js"></script>
 </body>
 
 </html>
