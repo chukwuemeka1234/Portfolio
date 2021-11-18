@@ -712,7 +712,7 @@ textarea {
   }
 
   .modal-card-title {
-    font-size: 2.0rem;
+    font-size: 2rem;
   }
 
   .modal-margin {
@@ -722,7 +722,6 @@ textarea {
   .modal-body-section {
     display: flex;
     flex-direction: row;
-    
   }
 
   .text-wrap {
@@ -911,9 +910,9 @@ textarea {
   cursor: pointer;
 }
 
-.modal-sub-info { 
+.modal-sub-info {
   width: 100%;
-  margin: 0; 
+  margin: 0;
   padding: 0;
   font-style: normal;
   font-weight: 600;
