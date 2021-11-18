@@ -57,7 +57,6 @@ const myProjects = [
     sourceCode: '#',
   },
 
-<<<<<<< HEAD
   {
     name: 'Uber Navigation',
     description: 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
@@ -67,7 +66,38 @@ const myProjects = [
     sourceCode: '#',
   },
 ];
-=======
-    {
->>>>>>> 2828cb2b908305d03f2207ac44f11ebabe5be37e
 
+const seeProjectBtn = document.querySelectorAll('.popup-project');
+seeProjectBtn.forEach((item, i) => {
+  item.addEventListener('click', () => {
+    const project = myProjects[i];
+    const modalMenu = document.querySelector('.modal-container');
+    const projectTitle = modalMenu.querySelector('.modal-card-title');
+    projectTitle.textContent = project.name;
+    const projectDesc = modalMenu.querySelectorAll('.modal-text-wrap');
+    const [mobileDesc, desktopDesc] = projectDesc;
+    mobileDesc.textContent = project.description;
+    desktopDesc.textContent = project.description;
+    projectDesc.textContent = project.description;
+    const projectMobileImage = modalMenu.querySelector('.mobile-image');
+    projectMobileImage.src = project.featuredImage;
+    const projectDesktopImage = modalMenu.querySelector('.desktop-image');
+    projectDesktopImage.src = project.featuredImage;
+    const liveLink = document.querySelector('.live-link');
+    liveLink.href = project.liveVersion;
+    const liveSourceCode = document.querySelector('.source-code');
+    liveSourceCode.href = project.sourceCode;
+    const allTech = document.querySelectorAll('.modal-tag');
+    allTech.forEach((item, i) => {
+      item.textContent = project.technology[i];
+    });
+
+    modalMenu.style.display = 'flex';
+  });
+});
+
+const modalCancelBtn = document.querySelector('#modal-close-icon');
+modalCancelBtn.addEventListener('click', () => {
+  const removeModalContainer = document.querySelector('.modal-container');
+  removeModalContainer.style.display = 'none';
+});
