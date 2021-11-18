@@ -291,6 +291,15 @@ main {
   border-radius: 5px;
 }
 
+.modal-btn {
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.modal-btn-container .modal-btn {
+  display: flex;
+}
+
 .btn,
 .btn-card,
 .modal-btn {
@@ -905,7 +914,7 @@ textarea {
   overflow: hidden;
 }
 
-#modal-close-icon {
+#modal-close {
   font-size: 40px;
   cursor: pointer;
 }
@@ -934,15 +943,6 @@ textarea {
   width: 100%;
 }
 
-.modal-btn {
-  align-items: center;
-  justify-content: space-evenly;
-}
-
-.modal-btn-container .modal-btn {
-  display: flex;
-}
-
 .modal-cancel-image:hover,
 .menu-content .x-menu {
   cursor: pointer;
@@ -965,15 +965,4 @@ textarea {
 
 .modal-text-wrap {
   font-size: 14px;
-}
-
-.blur {
-  position: fixed;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0.5);
-  opacity: 1;
-  display: none;
 }
