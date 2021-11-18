@@ -237,16 +237,14 @@ main {
   line-height: 16px;
 }
 
-.work__title,
-.modal-card-title {
+.work__title {
   font-size: 2.5rem;
   color: #172b4d;
   transition-property: color, font-size;
   transition-duration: 1s;
 }
 
-.work__title:hover,
-.modal-card-title:hover {
+.work__title:hover {
   color: rgb(14, 6, 124);
   font-size: 2.7rem;
 }
@@ -255,26 +253,22 @@ main {
   display: none;
 }
 
-.canopy,
-.modal-canopy {
+.canopy {
   color: #344563;
   padding-right: 0.5rem;
 }
 
-.backend,
-.modal-backend {
+.backend {
   color: #7a869a;
   padding: 0 0.5rem;
 }
 
-.year,
-.modal-year {
+.year {
   color: #7a869a;
   padding: 0 0.5rem;
 }
 
-.tags,
-.modal-tags {
+.tags {
   display: flex;
   list-style-type: none;
   margin: 1rem 0 1.3rem 0;
@@ -705,6 +699,10 @@ textarea {
     margin-top: 20px;
   }
 
+  .modal-card-title {
+    font-size: 2.0rem;
+  }
+
   .modal-margin {
     margin: 0.5rem 0;
   }
@@ -717,11 +715,11 @@ textarea {
   }
 
   .text-wrap {
-    width: 70%;
+    width: 60%;
   }
 
   .modal-icons {
-    width: 30%;
+    width: 38%;
   }
 
   .modal-items {
@@ -729,13 +727,12 @@ textarea {
   }
 
   .modal-text-wrap {
-    font-size: 18px;
+    font-size: 12px;
   }
 
   .modal-btn-container .modal-btn {
     width: 100%;
   }
-
 
   .btn-card {
     font-size: 1.0625rem;
@@ -878,7 +875,7 @@ textarea {
 /* modal mobile */
 .modal-container {
   width: 100%;
-  height: auto;
+  height: 110%;
   background: #c1c7d0;
   display: none;
   flex-direction: column;
@@ -900,19 +897,30 @@ textarea {
   justify-content: space-between;
   width: 100%;
   align-items: center;
+  overflow: hidden;
 }
 
-.modal-sub-info {
-  display: flex;
-  align-items: center;
+#modal-close-icon {
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.modal-sub-info { 
   width: 100%;
-  gap: 0.75rem;
-  margin: 0 0 0.75rem 0;
+  gap: 0.01rem;
+  margin: 0 0 0.75rem 0; 
+  padding: 1rem 0;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  overflow: hidden;
 }
 
 .modal-image-container {
   display: inline-block;
   width: 100%;
+  overflow: hidden;
 }
 
 .modal-btn-container {
@@ -932,16 +940,76 @@ textarea {
   display: flex;
 }
 
+.modal-cancel-image:hover,
+.menu-content .x-menu {
+  cursor: pointer;
+}
+
 .modal-btn-container a {
   text-decoration: none;
 }
+
+.modal-tags {
+  display: flex;
+  list-style-type: none;
+  margin: 0 0 1.3rem 0;
+  gap: 0.5rem;
+  width: 100%;
+  height: 1.5rem;
+  color: #6070ff;
+  font-size: 14px;
+}
+
+
+
+
+
+
+/* 
+
+.modal-btn-container {
+  display: flex;
+  background: #fff;
+  gap: 8px;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.modal-btn {
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.modal-btn-container .modal-btn {
+  display: flex;
+}
+
+
+
+
 
 .modal-close-icon:hover {
   cursor: pointer;
 }
 
-#modal-close-icon {
-  font-size: 40px;
+.modal-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #dfe1e6;
+  box-sizing: border-box;
+  border-radius: 16px;
+  padding: 1rem;
+  background: #fff;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.modal-card-title {
+  font-size: 1.5rem;
+  color: #172b4d;
+  transition-property: color, font-size;
+  transition-duration: 1s;
 }
 
 .line-modal {
@@ -952,4 +1020,4 @@ textarea {
   background-size: cover;
   list-style-type: none;
   margin-bottom: 20px;
-}
+} */
