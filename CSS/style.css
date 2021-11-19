@@ -967,3 +967,9 @@ textarea {
   font-size: 14px;
 }
 
+.error-message {
+  display: block;
+  color: red;
+  font-size: 15px;
+  margin-left: 20px;
+}
