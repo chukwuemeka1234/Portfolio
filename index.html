@@ -291,7 +291,7 @@
     <h2 class="footer-title">Contact me</h2>
     <p class="footer-text">If you have an application you are interested in developing, a feature that you need built or
       a project that needs coding. I’d love to help with it</p>
-    <form class="form" action="https://formspree.io/f/xbjqvdnv" method="post">
+    <form class="form"  action="https://formspree.io/f/xbjqvdnv" id="form-contact" method="POST">
       <ul class="formul">
         <li class="formul1">
           <label for="fullName">
@@ -309,6 +309,7 @@
               placeholder="Write your message here" required></textarea>
           </label>
         </li>
+        <span class="error-message"></span>
         <li class="button-btn">
           <button type="submit" class="btn">Get It Touch</button>
         </li>
@@ -316,29 +317,6 @@
     </form>
     <span class="line-bold"><img src="Image/footer-line.svg" alt="line"></span>
   </footer>
-
-  <div class="Modal-container">
-    <ul class="modal-card">
-      <li class="modal-header-img">
-        <h2 class="modal-title">Tonic</h2>
-        <a id="modal-close-icon">&times;</a>
-      </li>
-
-      <li class="modal-info">
-        <span class="works__info__items canopy">CANOPY</span>
-        <img src="Image/dot.svg" alt="dot">
-        <span class="works__info__items backend">Back End Dev</span>
-        <img src="Image/dot.svg" alt="dot">
-        <span class="works__info__items year">2015</span>
-      </li>
-
-      <li class="modal-image">
-        <img src="Image/Snapshoot_Portfolio1.svg" alt="Tonic" class="mobile-image">
-        <img src="Image/SnapshootDesktopPortfolioA.svg" alt="Tonic" class="desktop-image">
-      </li>
-    </ul>
-  </div>
-
 
   <!-- Modal popup window -->
   <div class="modal-container">
